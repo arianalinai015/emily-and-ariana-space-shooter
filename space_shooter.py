@@ -28,8 +28,8 @@ laser_sound.set_volume(0.3)
 explosion_sound = pygame.mixer.Sound("Wilhelm Scream - Sound Effect (HD).mp3")
 explosion_sound.set_volume(0.5)
 
-MENU_MUSIC = "Star Wars Main Theme Full.mp3"
-GAME_MUSIC = "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster).mp3"
+MENU_MUSIC = "music_track1.mp3"
+GAME_MUSIC = "music_track2.mp3"
 pygame.mixer.music.load(MENU_MUSIC)
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1)
